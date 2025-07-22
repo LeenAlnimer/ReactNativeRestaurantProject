@@ -11,7 +11,7 @@ const SearchScreen = () => {
         onTermChange={setTerm}
         onTermSubmit={() => console.log("term was submitted")}
       />
-      <Text style={{ fontSize: 25 }}>Search Screen</Text>
+      <Text style={{ fontSize: 25, color: "#fd5722" }}>Search Screen</Text>
       <Text>{term}</Text>
     </View>
   );
