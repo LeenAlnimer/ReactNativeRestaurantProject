@@ -11,6 +11,7 @@ export default () => {
           limit: 50,
           term: searchTerm,
           location: "san jose",
+          categories: "restaurants",
         },
       });
 
